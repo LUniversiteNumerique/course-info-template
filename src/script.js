@@ -1,6 +1,6 @@
 $(function() {
     $h5ps = $('.punchy-infos')[0];
-    console.log("ok", $h5ps);
+
     if ($h5ps) {
         $($h5ps).wrap('<div id="punchy-infos-wrapper"></div>');
         $handle = $('<h5/>');

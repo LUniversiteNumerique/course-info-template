@@ -1,7 +1,5 @@
-/* colors */
 .punchy-infos {
   display: none;
-  /* to remove the loading glitch */
 }
 
 .editor_atto_content .punchy-infos {
@@ -10,7 +8,6 @@
   border: 1px solid #dee2e6;
   padding: 0.75em 1em;
   border-top: 0;
-  /* display in the editor */
 }
 .editor_atto_content .punchy-infos.active {
   display: flex;
@@ -97,20 +94,6 @@
 #punchy-infos-wrapper .punchy-infos .tr .td {
   flex-grow: 1;
   padding: 0.5em 1em;
-}
-
-.header-img-wrapper .pre-image {
-  height: 10px;
-}
-.header-img-wrapper .pre-image .pre-image-content {
-  background-position-x: 0px;
-  background-position-y: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 10px;
-}
-.header-img-wrapper .post-image {
-  margin-top: -70px;
 }
 
 @media (max-width: 768px) {

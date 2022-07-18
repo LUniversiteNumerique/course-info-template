@@ -44,7 +44,7 @@ $td-padding: .5em 1em
 
 .editor_atto_content
     .punchy-infos
-        @include punchyInfos(flex) // display in the editor
+        +punchyInfos(flex) // display in the editor
 
 #punchy-infos-wrapper
     .punchy-infos-handler
@@ -62,7 +62,7 @@ $td-padding: .5em 1em
         .handler-icon
             color: $icon
     .punchy-infos
-        @include punchyInfos(none)
+        +punchyInfos(none)
 
 @media (max-width: 768px)
     #punchy-infos-wrapper
